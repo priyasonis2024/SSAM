@@ -1,0 +1,59 @@
+{
+	"ProjectName": "ZCATEXTENTION",
+	"ApplicationName": "ZCATEXTENTION",
+	"ComponentVersion": "1",
+	"IntegrationPoints": [
+		{
+			"Source": "/ZCATEXTENTION/Pages/User/About.page",
+			"Target": "/SAPAssetManager/Pages/User/About.page"
+		},
+		{
+			"Source": "/ZCATEXTENTION/Pages/WorkOrders/WorkOrdersListView.page",
+			"Target": "/SAPAssetManager/Pages/WorkOrders/WorkOrdersListView.page"
+		},
+		{
+			"Source": "/ZCATEXTENTION/Pages/WorkOrders/WorkOrderDetails.page",
+			"Target": "/SAPAssetManager/Pages/WorkOrders/WorkOrderDetails.page"
+		},
+		{
+			"Source": "/ZCATEXTENTION/i18n/i18n.properties",
+			"Target": "/SAPAssetManager/i18n/i18n.properties"
+		},
+		{
+			"Source": "/ZCATEXTENTION/i18n/i18n_en.properties",
+			"Target": "/SAPAssetManager/i18n/i18n_en.properties"
+		},
+		{
+			"Source": "/ZCATEXTENTION/Rules/MobileStatus/RunMobileStatusUpdateSequence.js",
+			"Target": "/SAPAssetManager/Rules/MobileStatus/RunMobileStatusUpdateSequence.js"
+		},
+		{
+			"Source": "/ZCATEXTENTION/Actions/Forms/SDF/FormRunnerNav.action",
+			"Target": "/SAPAssetManager/Actions/Forms/SDF/FormRunnerNav.action"
+		},
+		{
+			"Source": "/ZCATEXTENTION/Rules/Forms/SDF/FormRunnerNav.js",
+			"Target": "/SAPAssetManager/Rules/Forms/SDF/FormRunnerNav.js"
+		},
+		{
+			"Source": "/ZCATEXTENTION/Rules/Forms/SDF/FormInstanceData.js",
+			"Target": "/SAPAssetManager/Rules/Forms/SDF/FormInstanceData.js"
+		},
+		{
+			"Source": "/ZCATEXTENTION/Pages/Forms/SDF/FormRunner.page",
+			"Target": "/SAPAssetManager/Pages/Forms/SDF/FormRunner.page"
+		},
+        {
+			"Source": "/ZCATEXTENTION/Rules/Forms/SDF/FormId.js",
+			"Target": "/SAPAssetManager/Rules/Forms/SDF/FormId.js"
+		},
+        {
+			"Source": "/ZCATEXTENTION/Rules/Forms/SDF/FormTemplateData.js",
+			"Target": "/SAPAssetManager/Rules/Forms/SDF/FormTemplateData.js"
+		},
+		 {
+			"Source": "/ZCATEXTENTION/Rules/Forms/SDF/IsFormReadOnly.js",
+			"Target": "/SAPAssetManager/Rules/Forms/SDF/IsFormReadOnly.js"
+		}
+	]
+}
