@@ -31,6 +31,10 @@
 			"Source": "/ZCATEXTENTION/Actions/Forms/SDF/FormRunnerNav.action",
 			"Target": "/SAPAssetManager/Actions/Forms/SDF/FormRunnerNav.action"
 		},
+				{
+			"Source": "/ZCATEXTENTION/Actions/Forms/SDF/FormInstanceCreate.action",
+			"Target": "/SAPAssetManager/Actions/Forms/SDF/FormInstanceCreate.action"
+		},
 		{
 			"Source": "/ZCATEXTENTION/Rules/Forms/SDF/FormRunnerNav.js",
 			"Target": "/SAPAssetManager/Rules/Forms/SDF/FormRunnerNav.js"
@@ -54,6 +58,31 @@
 		 {
 			"Source": "/ZCATEXTENTION/Rules/Forms/SDF/IsFormReadOnly.js",
 			"Target": "/SAPAssetManager/Rules/Forms/SDF/IsFormReadOnly.js"
+		},
+		{
+			"Source": "/ZCATEXTENTION/Rules/MobileStatus/StatusUIGenerator.js",
+			"Target": "/SAPAssetManager/Rules/MobileStatus/StatusUIGenerator.js"
+		},
+		{
+			"Source": "/ZCATEXTENTION/Rules/Forms/SDF/PressCompleteButton.js",
+			"Target": "/SAPAssetManager/Rules/Forms/SDF/PressCompleteButton.js"
+		},
+		{
+			"Source": "/ZCATEXTENTION/Rules/Forms/SDF/PressSaveButton.js",
+			"Target": "/SAPAssetManager/Rules/Forms/SDF/PressSaveButton.js"
+		},
+		{
+			"Source": "/ZCATEXTENTION/Rules/Forms/SDF/SubmissionHandler.js",
+			"Target": "/SAPAssetManager/Rules/Forms/SDF/SubmissionHandler.js"
+		},
+		{
+			"Source": "/ZCATEXTENTION/Rules/Operations/WorkOrderOperationDetailsOnReturning.js",
+			"Target": "/SAPAssetManager/Rules/Operations/WorkOrderOperationDetailsOnReturning.js"
+		},
+		{
+			"Source": "/ZCATEXTENTION/Rules/Forms/SDF/FormRunnerOnBackButtonPressed.js",
+			"Target": "/SAPAssetManager/Rules/Forms/SDF/FormRunnerOnBackButtonPressed.js"
 		}
+	
 	]
 }
